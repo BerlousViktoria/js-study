@@ -1,3 +1,4 @@
+//1exmp
 const numbers = [1, 2, 3, 4, 5];
 const squares = numbers.map(square);
 const cubes = numbers.map(cube);
@@ -36,5 +37,8 @@ function formatDates(element){
     const parts = element.split('-');
     return `${parts[2]}/${parts[1]}/${parts[0]}`;    
 }
+
 const arrangedDates = dates.map(formatDates);
 console.log(arrangedDates);
+
+
